@@ -13,7 +13,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "Node.js",
+    "build": "Node.js build",
+    "start": "Node.js start -p $PORT",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
