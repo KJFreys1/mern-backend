@@ -7,15 +7,13 @@
     "lib": "lib"
   },
   "dependencies": {
-    "express": "^4.17.1",
     "cors": "^2.8.5",
+    "express": "^4.17.1",
     "mongoose": "^5.8.9"
   },
   "devDependencies": {},
   "scripts": {
-    "build": "build",
-    "start": "start -p $PORT",
-    "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -26,6 +24,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KJFreys1/mern-backend/issues"
+  },
+  "engines": {
+    "node": "v13.1.0"
   },
   "homepage": "https://github.com/KJFreys1/mern-backend#readme"
 }
