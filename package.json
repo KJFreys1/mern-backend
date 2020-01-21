@@ -13,9 +13,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "Node.js",
-    "build": "Node.js build",
-    "start": "Node.js start -p $PORT",
+    "build": "build",
+    "start": "start -p $PORT",
     "heroku-postbuild": "npm run build"
   },
   "repository": {
