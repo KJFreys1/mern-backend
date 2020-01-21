@@ -1,0 +1,29 @@
+{
+  "name": "mern-backend",
+  "version": "1.0.0",
+  "description": "This is initial readme for backend of mern app",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "mongoose": "^5.8.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KJFreys1/mern-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KJFreys1/mern-backend/issues"
+  },
+  "homepage": "https://github.com/KJFreys1/mern-backend#readme"
+}
