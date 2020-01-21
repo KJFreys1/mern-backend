@@ -1,0 +1,17 @@
+[
+    {
+        "title": "example trip",
+        "stops": [
+            {
+                "name": "example stop one",
+                "address": "some address",
+                "website": "www.example.com"
+            },
+            {
+                "name": "example stop two",
+                "address": "some other address",
+                "website": "www.example.com"
+            }
+        ]
+    }
+]
